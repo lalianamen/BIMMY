@@ -87,4 +87,52 @@ The priority order for every BIMMY episode is:
 5. Platform-ready framing.
 6. Cost-efficient generation without sacrificing the approved story.
 
+## 12. Approved production pattern from the Home Depot episode
+This is the preferred production method when the generation model can handle the full episode reliably.
+
+- Generate the episode as ONE continuous video whenever possible instead of stitching many unrelated clips.
+- Default target for short-form BIMMY episodes: about 30 seconds, vertical 9:16.
+- Use the exact approved BIMMY reference image as the visual identity anchor for the generation.
+- The prompt must explicitly state that BIMMY's identity must remain unchanged from the reference: no redesign, no face change, no hairstyle change, no body-proportion change, and no duplicate BIMMY characters.
+- Keep the full approved script in one chronological prompt, with every scene, line, reaction, gesture, prop, and final beat listed in exact story order.
+- Tell the model that the finished result must feel like one continuous animated sitcom scene, not a montage of disconnected clips.
+- Preserve recurring supporting characters across the full generation. If an employee, shopper, husband, child, dog, or other supporting character appears in more than one shot, keep the same appearance throughout.
+- Use native dialogue/audio generation when it produces a cleaner one-piece result. Dialogue must remain understandable and preserve the intended broken-English or mixed-language comedy.
+- Do not add subtitles, captions, random signs, or decorative text unless specifically requested.
+- Keep BIMMY without sunglasses during dialogue-heavy indoor scenes so her facial acting is visible. Sunglasses may appear in the ending if they are part of the punchline.
+- Include the final beat explicitly in the generation prompt. Never assume the model will infer it from the story.
+- For comedy scenes, specify reaction timing: pauses, confused looks, nearby-character reactions, and the exact moment the misunderstanding is resolved.
+- When a nearby supporting character is part of the joke, keep that character present long enough for their reaction to land; do not remove them early.
+- If a physical action carries the joke, describe it visually and specifically instead of relying on dialogue alone.
+
+### Home Depot lesson to reuse
+The successful Home Depot episode used this structure:
+- BIMMY enters confidently.
+- She forgets one English word.
+- She tries to explain it through broken English and physical acting.
+- The employee misunderstands.
+- A nearby shopper becomes part of the comedic reaction.
+- The shopper provides the missing word.
+- BIMMY immediately regains confidence.
+- She gets the product she wanted.
+- The final joke is a confident visual exit with sunglasses and a short self-satisfied line.
+
+The important reusable lesson is not the store itself; it is the rhythm: confidence -> confusion -> physical improvisation -> outsider reaction -> sudden solution -> BIMMY acts as if she handled everything perfectly.
+
+## 13. Pre-generation prompt checklist
+Before launching a final generation, the prompt should explicitly include:
+- exact BIMMY reference identity;
+- target aspect ratio and duration;
+- one continuous episode instruction;
+- full scene order;
+- all dialogue;
+- required supporting characters;
+- no duplicates;
+- no redesigns;
+- exact props;
+- facial-expression and reaction beats;
+- audio requirement;
+- no unwanted subtitles/text overlays;
+- exact final punchline and ending image.
+
 This template should be applied by default to all future BIMMY video generation unless the user explicitly overrides a rule for a specific episode.
