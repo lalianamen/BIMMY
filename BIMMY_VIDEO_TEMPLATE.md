@@ -2,12 +2,24 @@
 
 This file is the master production template for future BIMMY episodes.
 
+## 0. NON-NEGOTIABLE SERIES STYLE — REALITY + CARTOON
+- ALL future BIMMY videos must use the approved HYBRID visual language: recognizable real-world / realistic environments mixed with the established cartoon BIMMY character.
+- This is the default and mandatory BIMMY series identity unless the user explicitly changes it.
+- Do NOT turn the whole world into a generic cartoon. Locations, stores, streets, parking lots, houses, cars, shelves, products, signs, lighting, and everyday objects should feel recognizable, dimensional, and grounded in reality.
+- BIMMY remains clearly stylized/cartoon and must visually stand out inside that believable real-world environment.
+- Supporting people may be stylized enough to belong in the same image, but the overall environment should retain a realistic, recognizable everyday-life feeling.
+- The intended effect is: "real life happening around a cartoon BIMMY" — not a fully realistic movie and not a fully cartoon universe.
+- Preserve believable depth, natural lighting, materials, store/house/street scale, props, and camera perspective so the real-world setting feels tangible.
+- Humor should come from BIMMY's cartoon expressiveness colliding with ordinary recognizable reality.
+- Keep this hybrid reality + cartoon treatment consistent from the first frame to the last frame of every episode.
+- Never silently switch future episodes to pure 3D animation, pure Pixar-like animation, anime, photoreal BIMMY, flat 2D-only backgrounds, or another unrelated visual language.
+
 ## 1. Core visual identity
 - Keep BIMMY's appearance consistent with the approved reference images.
 - Do not redesign her face, hair, body proportions, clothing style, or overall cartoon identity unless explicitly requested.
 - Signature features: voluminous reddish-brown/copper curly hair, expressive large eyes, compact adult cartoon proportions, black casual clothing as the default, white sneakers, oversized black sunglasses when the scene calls for them.
 - Inside dialogue-heavy scenes, avoid sunglasses if facial acting is important. Sunglasses may be used as a punchline or final beat.
-- Use the same animated/cartoon look across the full episode. Avoid switching between realistic, anime, 3D, or unrelated styles.
+- BIMMY must remain the same established cartoon character while being composited/generated naturally into realistic or reality-grounded environments.
 
 ## 2. Character consistency
 - Recurring husband, daughter, son, dog, employees, neighbors, and other recurring characters must keep the same approved appearance from episode to episode.
@@ -20,7 +32,7 @@ This file is the master production template for future BIMMY episodes.
 - Build the episode as one continuous story, even if generated from multiple scenes.
 - Preserve continuity of location, clothes, props, lighting, and character placement.
 - Avoid random scene jumps, missing props, duplicated people, or sudden visual redesigns.
-- Final output should feel like one coherent animated sitcom episode.
+- Final output should feel like one coherent hybrid reality-cartoon sitcom episode.
 
 ## 4. Script rule
 - The approved script is the source of truth.
@@ -33,6 +45,7 @@ This file is the master production template for future BIMMY episodes.
 - Prefer natural facial acting, pauses, eye movements, awkward silence, small reactions, and confident misunderstanding over exaggerated slapstick.
 - Supporting characters should react naturally and help sell the joke.
 - Keep the humor relatable, everyday, and character-driven.
+- Use the visual contrast between cartoon BIMMY and believable everyday reality as part of the comedy.
 
 ## 6. Camera and pacing
 - Open with a visual hook in the first 1–2 seconds.
@@ -40,6 +53,7 @@ This file is the master production template for future BIMMY episodes.
 - Use wider shots only when the physical action or environment is important.
 - Let the punchline breathe with a short pause before or after it.
 - Keep scene rhythm fast enough for Reels/Shorts but not so fast that dialogue or expressions are lost.
+- Camera perspective, shadows, scale, and lighting must make BIMMY feel physically present in the real-world setting rather than pasted on top.
 
 ## 7. Audio
 - Dialogue should be clear and match the approved language/mixed-language script.
@@ -50,7 +64,10 @@ This file is the master production template for future BIMMY episodes.
 
 ## 8. Visual continuity checklist before generation
 Before generating, verify:
-- BIMMY matches the approved reference.
+- Hybrid REALITY + CARTOON style is active.
+- Environment is recognizable and reality-grounded.
+- BIMMY remains unmistakably cartoon and matches the approved reference.
+- BIMMY is naturally integrated through matching perspective, lighting, shadows, and scale.
 - No duplicate characters.
 - Correct recurring-character appearances.
 - Correct clothing and age relationships.
@@ -64,6 +81,7 @@ Before generating, verify:
 
 ## 9. Thumbnail / hook image template
 - Use the established bold comic thumbnail style: thick black outlines, vivid saturated colors, large readable hook text, expressive faces, strong visual contrast.
+- Keep enough recognizable real-world location detail to connect the thumbnail to the hybrid video style.
 - The thumbnail should communicate the joke instantly without explaining the whole story.
 - Keep BIMMY recognizable and consistent with the episode.
 - Do not add recurring characters, such as the dog, unless they are intentionally part of that episode or thumbnail concept.
@@ -80,12 +98,13 @@ Before generating, verify:
 
 ## 11. Production principle
 The priority order for every BIMMY episode is:
-1. Character consistency.
-2. Script completeness.
-3. Comedy timing.
-4. Visual continuity.
-5. Platform-ready framing.
-6. Cost-efficient generation without sacrificing the approved story.
+1. Hybrid reality + cartoon series identity.
+2. Character consistency.
+3. Script completeness.
+4. Comedy timing.
+5. Visual continuity.
+6. Platform-ready framing.
+7. Cost-efficient generation without sacrificing the approved story.
 
 ## 12. Approved production pattern from the Home Depot episode
 This is the preferred production method when the generation model can handle the full episode reliably.
@@ -93,9 +112,10 @@ This is the preferred production method when the generation model can handle the
 - Generate the episode as ONE continuous video whenever possible instead of stitching many unrelated clips.
 - Default target for short-form BIMMY episodes: about 30 seconds, vertical 9:16.
 - Use the exact approved BIMMY reference image as the visual identity anchor for the generation.
+- Explicitly request the BIMMY hybrid style: cartoon BIMMY inside a believable, recognizable, reality-grounded real-world environment.
 - The prompt must explicitly state that BIMMY's identity must remain unchanged from the reference: no redesign, no face change, no hairstyle change, no body-proportion change, and no duplicate BIMMY characters.
 - Keep the full approved script in one chronological prompt, with every scene, line, reaction, gesture, prop, and final beat listed in exact story order.
-- Tell the model that the finished result must feel like one continuous animated sitcom scene, not a montage of disconnected clips.
+- Tell the model that the finished result must feel like one continuous hybrid reality-cartoon sitcom scene, not a montage of disconnected clips.
 - Preserve recurring supporting characters across the full generation. If an employee, shopper, husband, child, dog, or other supporting character appears in more than one shot, keep the same appearance throughout.
 - Use native dialogue/audio generation when it produces a cleaner one-piece result. Dialogue must remain understandable and preserve the intended broken-English or mixed-language comedy.
 - Do not add subtitles, captions, random signs, or decorative text unless specifically requested.
@@ -121,6 +141,8 @@ The important reusable lesson is not the store itself; it is the rhythm: confide
 
 ## 13. Pre-generation prompt checklist
 Before launching a final generation, the prompt should explicitly include:
+- MANDATORY hybrid REALITY + CARTOON visual style;
+- realistic/reality-grounded environment + established cartoon BIMMY;
 - exact BIMMY reference identity;
 - target aspect ratio and duration;
 - one continuous episode instruction;
@@ -131,6 +153,7 @@ Before launching a final generation, the prompt should explicitly include:
 - no redesigns;
 - exact props;
 - facial-expression and reaction beats;
+- matching perspective, lighting, shadows, and scale;
 - audio requirement;
 - no unwanted subtitles/text overlays;
 - exact final punchline and ending image.
